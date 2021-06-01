@@ -1,44 +1,47 @@
 @import "__toggler/navbar__toggler.scss";
 
 .navbar {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-start;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
 
 
-  &__icons {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  }
+    &__icons {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
 
-  &__nav {
-  display: flex;
-  flex-direction: row;
-  }
+    &__nav {
+        display: none;
+    }
 
 }
 
 .navbar ul {
-  list-style: none;
-  padding: 10px;
+    list-style: none;
+    padding: 10px;
 }
 
 .navbar a {
-  text-decoration-line: none;
+    text-decoration-line: none;
 }
 
 .navbar_opened {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .8);
-  z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 3;
 }
 
-  .navbar_opened .navbar__nav {
-      flex-direction: column;
-      font-size: 28px;
-    }
+.navbar_opened .navbar__nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}

@@ -1,11 +1,12 @@
 .page {
-  height: 100vh;
+    height: 100vh;
+    position: relative;
 
-  &_navbar {
-    padding-top: 20px;
-  }
+    &_navbar {
+        padding-top: 20px;
+    }
 
-  &_content {
-    margin-top: 0;
-  }
+    &_content {
+        margin-top: 0;
+    }
 }

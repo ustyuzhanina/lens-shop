@@ -1,0 +1,27 @@
+.header {
+    background-color: $background-medium;
+
+    & .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    &__logo {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        align-self: center;
+
+        &:hover {
+            color: white;
+        }
+
+        span {
+            color: $accent-color;
+        }
+    }
+}

@@ -1,24 +1,61 @@
 .navbar__toggler {
-  padding: 0;
-  margin: 0;
-  padding-top: 2px;
-  border: none;
-  background: none;
-  display: block;
-  transform:
-  translate(-50%, -50%);
-  position: absolute;
-  width: 50px;
-
-  &::before,
-  &::after,
-  div {
-    background: #fff;
-    content: "";
+    padding: 0;
+    margin: 0;
+    padding-top: 4px;
+    border: none;
+    background: none;
     display: block;
-    height: 6px;
-    border-radius: 3px;
-    margin: 7px 0;
-    transition: 0.5s;
-  }
+    // transform: translate(-50%, -50%);
+    width: 40px;
+    max-height: 100%;
+
+    & div {
+        background: #fff;
+        content: "";
+        display: block;
+        height: 4px;
+        border-radius: 2.5px;
+        margin: 5px 0;
+        transition: 0.5s;
+        max-width: 40px;
+        position: relative;
+    }
+
+    &::before {
+        background: #fff;
+        content: "";
+        display: block;
+        height: 4px;
+        border-radius: 2.5px;
+        margin: 5px 0;
+        transition: 0.5s;
+        max-width: 40px;
+        position: absolute;
+    }
+
+    &::after {
+        background: #fff;
+        content: "";
+        display: block;
+        height: 4px;
+        border-radius: 2.5px;
+        margin: 5px 0;
+        transition: 0.5s;
+        max-width: 40px;
+        position: absolute;
+    }
+
+
+
+    .navbar_opened &::before {
+        transform: translateY(12px) rotate(135deg);
+    }
+
+    .navbar_opened &::after {
+        transform: translateY(-12px) rotate(-135deg);
+    }
+
+    .navbar_opened & div {
+        transform: scale(0);
+    }
 }
