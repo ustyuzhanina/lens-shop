@@ -14,9 +14,7 @@
         "type": "git",
         "url": "git+https://github.com/ustyuzhanina/lens-shop.git"
     },
-    "keywords": [
-        "lens", "shop"
-    ],
+    "keywords": [],
     "author": "Elena Ustyuzhanina",
     "license": "ISC",
     "bugs": {
