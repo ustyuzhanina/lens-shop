@@ -5,7 +5,9 @@ import "./styles/style.scss";
 import "./js/common";
 
 const NAVBAR = document.querySelector(".navbar");
+const NAVBAR_TOGGLER = document.querySelector(".navbar__toggler");
 
-NAVBAR.addEventListener("click", (e) => {
-    e.target.classList.toggle("navbar_opened");
+NAVBAR_TOGGLER.addEventListener("click", (e) => {
+  e.stopPropagation();
+  NAVBAR.classList.toggle("navbar_opened");
 });

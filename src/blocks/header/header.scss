@@ -1,3 +1,5 @@
+@import "__logo/header__logo.scss";
+
 .header {
     background-color: $background-medium;
 
@@ -10,18 +12,8 @@
         padding-bottom: 8px;
     }
 
-    &__logo {
-        text-decoration: none;
-        color: white;
-        display: inline-block;
-        align-self: center;
+    & a {
+    text-decoration-line: none;
+}
 
-        &:hover {
-            color: white;
-        }
-
-        span {
-            color: $accent-color;
-        }
-    }
 }

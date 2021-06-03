@@ -1,0 +1,14 @@
+    .header__logo {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        align-self: center;
+
+        &:hover {
+            color: white;
+        }
+
+        span {
+            color: $accent-color;
+        }
+    }

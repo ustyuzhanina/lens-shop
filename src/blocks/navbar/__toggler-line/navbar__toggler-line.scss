@@ -1,0 +1,23 @@
+.navbar__toggler-line {
+  background: #fff;
+  display: block;
+  height: 4px;
+  border-radius: 2.5px;
+  margin: 5px 0;
+  transition: 0.5s;
+  max-width: 40px;
+
+    .navbar_opened &_top {
+        transform: translateY(8px) rotate(135deg);
+    }
+
+    .navbar_opened &_bottom {
+        transform: translateY(-10px) rotate(-135deg);
+    }
+
+    .navbar_opened &_md {
+        transform: scale(0);
+    }
+}
+
+

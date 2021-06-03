@@ -1,0 +1,14 @@
+.navbar__toggler-box {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+
+
+  & .header__logo {
+    display: none;
+  }
+
+  .navbar_opened & .header__logo {
+    display: block;
+  }
+}
