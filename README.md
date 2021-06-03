@@ -1,1 +1,3 @@
-# lens-shop(https://github.com/ustyuzhanina/lens-shop.git)
+# lens-shop
+
+https://ustyuzhanina.github.io/lens-shop
