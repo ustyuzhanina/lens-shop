@@ -4,6 +4,7 @@
 .vsls.json
 .bemrc.js
 stats.json
+/.ssh
 
 # Logs
 logs
