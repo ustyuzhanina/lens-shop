@@ -1,13 +1,13 @@
 @import "__logo/header__logo.scss";
 
 .header {
-    background-color: $background-medium;
+    background-color: white;
 
     & .container {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: baseline;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
         padding-top: 8px;
         padding-bottom: 8px;
     }
@@ -16,4 +16,24 @@
     text-decoration-line: none;
 }
 
+}
+
+.header__top {
+  width: 100%;
+  border-bottom: .5px solid rgb(194, 192, 192);
+
+  & .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.header__nav-line {
+  width: 100%;
+  border-bottom: .5px solid rgb(194, 192, 192);
+
+    & .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

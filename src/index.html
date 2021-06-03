@@ -5,56 +5,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Webpage - <%= htmlWebpackPlugin.options.title %></title>
+    <title>Интернет-магазин линз, очков и аксессуаров в Красноярске - <%= htmlWebpackPlugin.options.title %></title>
     <link rel="icon" href="./images/static/favicon.png" type="image/png" />
 </head>
 
 <body>
     <div class="page">
         <header class="header">
-            <div class="container">
-                <div class="header__contact-cta"></div>
-            </div>
-
-            <div class="header__nav-line container">
-                <!-- Navbar -->
-                <a href="#" class="header__logo">
-                    <h3>крас<span>линза</span></h3>
-                </a>
-                <nav class="navbar page_navbar">
-                    <ul class="navbar__nav">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">ЛИНЗЫ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">РАСТВОРЫ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">АКСЕССУАРЫ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">ОЧКИ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">АКЦИИ</a>
-                        </li>
+            <div class="header__top">
+                <div class="container">
+                    <ul class="about">
+                        <li class="about__item">О нас</li>
+                        <li class="about__item">Акции и новости</li>
+                        <li class="about__item">Склад</li>
+                        <li class="about__item">Вакансии</li>
+                        <li class="about__item">Наши партнёры</li>
                     </ul>
-                    <div class="navbar__toggler-box">
-                        <a href="#" class="header__logo">
-                            <h3>крас<span>линза</span></h3>
-                        </a>
-                        <button class="navbar__toggler" type="button">
-                            <span class="navbar__toggler-line navbar__toggler-line_top"></span>
-                            <span class="navbar__toggler-line navbar__toggler-line_md"></span>
-                            <span class="navbar__toggler-line navbar__toggler-line_bottom"></span>
-                        </button>
-                    </div>
-
-
-
-                </nav>
-                <!-- Navbar -->
+                    <ul class="CTA">
+                        <li class="CTA__item">Красноярск</li>
+                        <li class="CTA__item">+7 (391) 256-22-22</li>
+                        <li class="CTA__item">whatsapp</li>
+                        <li class="CTA__item">instagram</li>
+                        <li class="CTA__item">tiktok</li>
+                    </ul>
+                </div>
             </div>
+
+
+            <div class="header__nav-line">
+                <div class="container">
+                    <!-- Navbar -->
+                    <a href="#" class="header__logo">
+                        <h3>крас<span>линза</span></h3>
+                    </a>
+                    <nav class="navbar page_navbar">
+                        <ul class="navbar__nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">ЛИНЗЫ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">РАСТВОРЫ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">АКСЕССУАРЫ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">ОЧКИ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">АКЦИИ</a>
+                            </li>
+                        </ul>
+                        <div class="navbar__toggler-box">
+                            <a href="#" class="header__logo">
+                                <h3>крас<span>линза</span></h3>
+                            </a>
+                            <button class="navbar__toggler" type="button">
+                                <span class="navbar__toggler-line navbar__toggler-line_top"></span>
+                                <span class="navbar__toggler-line navbar__toggler-line_md"></span>
+                                <span class="navbar__toggler-line navbar__toggler-line_bottom"></span>
+                            </button>
+                        </div>
+
+                    </nav>
+                    <!-- Navbar -->
+                </div>
+            </div>
+
+
         </header>
 
         <main class="content page_content"></main>
